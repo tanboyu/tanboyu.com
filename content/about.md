@@ -6,10 +6,13 @@ date: '2016-02-20'
 
 ![](https://www.tanboyu.com/wp-content/uploads/2016/02/logo-clinical-data-150x150.png)
 
-个人简介
-----
+*Bobby*|波比
 
-。感念生命之短暂，希望通过博客平台喜结天下小伙伴！欢迎来信交流![](http://www.tanboyu.com/wp-content/uploads/2016/12/img_5866569d13e19.png)。
+ - 临床药师
+ - 信息药师
+ - []
+ 
+*E-mail*：(http://www.tanboyu.com/wp-content/uploads/2016/12/img_5866569d13e19.png)
 
 工作经历
 ----
