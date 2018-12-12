@@ -4,7 +4,7 @@ author: 波比
 date: '2017-01-09'
 slug: latex编辑入门知识
 categories:
-  - 学术编辑
+  - 科研
 tags:
   - 编辑
   - latex

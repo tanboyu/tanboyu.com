@@ -27,8 +27,6 @@ All materials are available on the Coursera website as well as on the course [Gi
 
 [PDF](http://kasperdanielhansen.github.io/genbioconductor/pdf/BiocIntro_What_is_Bioconductor.pdf)
 
-
-
 [Google Slides](https://docs.google.com/presentation/d/1rPKLk9tTfoLkRl-PyaboJ4wHTsLhmm2ukBRxOmJg4Kk/edit?usp=sharing)
 
 2. Installing Bioconductor (3:39)

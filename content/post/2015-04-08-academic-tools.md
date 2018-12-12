@@ -4,7 +4,7 @@ author: 波比
 date: '2015-04-08'
 slug: 科研秘籍
 categories:
-  - 科研工具
+  - 科研
 tags: 
   - google学术
   - mendeley

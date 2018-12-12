@@ -4,7 +4,7 @@ author: 波比
 date: '2017-01-30'
 slug: 给研究生的一些忠告
 categories:
-  - 研究生培养
+  - 科研
 tags:
   - 研究生培养
   - 科研集锦
