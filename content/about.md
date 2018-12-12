@@ -6,7 +6,7 @@ date: '2016-02-20'
 
 ![](https://www.tanboyu.com/wp-content/uploads/2016/02/logo-clinical-data-150x150.png)
 
-*Bobby*|**波比**  临床药师,信息药师
+*Bobby* | **波比**  临床药师,信息药师
  
 *E-mail* ![](http://www.tanboyu.com/wp-content/uploads/2016/12/img_5866569d13e19.png)
 
