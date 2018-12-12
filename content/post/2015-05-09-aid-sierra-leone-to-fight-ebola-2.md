@@ -2,7 +2,7 @@
 title: '抗击埃博拉系列（二）'
 author: 波比
 date: '2015-05-09'
-slug: 抗击埃博拉系列
+slug: 抗击埃博拉系列（二）
 categories:
   - 抗击埃博拉
 tags:
