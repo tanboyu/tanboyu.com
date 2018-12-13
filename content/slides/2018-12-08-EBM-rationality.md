@@ -14,7 +14,7 @@ tags:
 
 - 儿童安全合理用药-临床常见不良反应及应对策略 
 
-	- [pdf](https://www.tanboyu.com/slides/20181208/儿童安全合理用药-临床常见不良反应及应对策略.pdf)
+	- [PDF](https://www.tanboyu.com/slides/20181208/儿童安全合理用药-临床常见不良反应及应对策略.pdf)
 
 - 心理生理应激对药物代谢扰动的研究进展
 
