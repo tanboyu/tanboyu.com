@@ -5,7 +5,7 @@ slug: "about"
 
 **谭波宇** 临床药师，信息药师
 
-*E-mail*: <img src="https://ws1.sinaimg.cn/large/8f5e6680gy1fy4w6okyb7j204x00omwy.jpg" style="vertical-align: middle;" alt="Your comments and suggestions are welcome!" />
+*E-mail*: <img src="./images/email.png" style="vertical-align: middle;" alt="Your comments and suggestions are welcome!" />
 
 **工作经历**
 
