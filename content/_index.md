@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://ws1.sinaimg.cn/large/8f5e6680gy1fy377ynzxdj20a90a9te7.jpg" style="max-width:15%;min-width:40px;float:right;" alt="Boyu Tan" />](https://www.tanboyu.com)
+[<img src="./images/logo.jpg" style="max-width:15%;min-width:40px;float:right;" alt="Boyu Tan" />](https://www.tanboyu.com)
 
 > A man is not old as long as he is seeking something. A man is not old until regrets take the place of dreams. —— J. Barrymore
 
