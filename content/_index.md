@@ -6,7 +6,7 @@ title: Home
 
 > A man is not old as long as he is seeking something. A man is not old until regrets take the place of dreams. —— J. Barrymore
 
-[*BY.Tan*]，一个倔强大叔的博客。最近爱折腾的毛病越发严重了，重度依赖 *Rstudio* ，索性博客也改成用 *Rstudio* 写了。
+[*BY.Tan*]，一个倔强大叔的博客。最近爱折腾的毛病越发严重了，把博客从WP转到hugo，而且又重度依赖 *Rstudio* ，索性博客也改成用 *Blogdown* 写了。
 
 
 
