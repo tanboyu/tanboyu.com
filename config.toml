@@ -26,12 +26,18 @@ footnotereturnlinkcontents = "↩"
     url = "/categories/"
     weight = 3
 [[menu.main]]
+    name = "课件"
+    url = "/slides/"
+    weight = 4
+[[menu.main]]
     name = "标签"
     url = "/tags/"
-    weight = 4
+    weight = 5
 [[menu.main]]
     name = "订阅"
     url = "/index.xml"
+    weight = 6
+
 
 [params]
     description = "记录点滴"
