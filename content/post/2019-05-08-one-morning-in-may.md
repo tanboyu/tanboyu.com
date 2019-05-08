@@ -14,15 +14,15 @@ categories: 札记
 人常道，人到中年，快乐如潮水般退去，涌上心头的是生活的压力。而陪伴孩子成长却是一段快乐时光，惬意如斯！
 
 
-手机微信的正确打开方式：点手机右上角，选择**在浏览器中打开**。
+**手机微信的正确打开方式：点微信页面右上角的“…”，选择“在浏览器中打开”**。
 
-**MP3版本**
+**MP3**
 <audio controls="controls">
   <source type="audio/mp3" src="http://30plans.com/download/one%20morning%20in%20May.mp3"></source>
   Your browser does not support the audio element.
 </audio>
 
-**MP4版**
+**MP4**
 <video width="560" height="240" controls>
   <source src="http://www.30plans.com/download/one%20morning%20in%20may.mp4" type="video/mp4">
   Your browser does not support the video tag.
