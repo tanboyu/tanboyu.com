@@ -7,12 +7,19 @@ tags: 歌曲
 categories: 札记
 ---
 
-时值夏初,草长莺飞。博才白鹤小学校门前的土坡上开满了野花，甚是惹人醉。小区的音乐大师[贺校长]在送孩子们上学之时，顿生灵感，创作了一首非常朴实而又真切的歌曲。
+时值夏初,草长莺飞。博才白鹤小学校门前的土坡上开满了野花，甚是惹人醉。小区的音乐人[贺校长]在送孩子们上学之时，顿生灵感，创作了一首非常朴实而又真切的歌曲。
 
 初听，让我有一种共鸣：一方面，寄望孩子快乐、健康、独立成长，又道出了孩子们在这个年龄段贪玩、易忘事的特点。另一方面，也唱出了为人父的那种殷殷期待。
 
 人常道，人到中年，快乐如潮水般退去，涌上心头的是生活的压力。而陪伴孩子成长却是一段快乐时光，惬意如斯！
 
+**MP3版本**
+<audio controls="controls">
+  <source type="audio/mp3" src="http://30plans.com/download/one%20morning%20in%20May.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+**MP4版**
 <video width="560" height="240" controls>
   <source src="http://www.30plans.com/download/one%20morning%20in%20may.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -20,7 +27,7 @@ categories: 札记
 
 # 歌词
 
-作词/作曲：贺清华^[北漂音乐人，湖南琴度艺术CEO]
+作词/作曲：贺清华^[音乐科班，北漂音乐人，湖南琴度艺术CEO]
 
 这是五月普通的一个清晨
 
