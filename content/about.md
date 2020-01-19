@@ -38,4 +38,4 @@ slug: "about"
 
 **欢迎关注微信公众账号**
 
-<img src="https://ws1.sinaimg.cn/large/8f5e6680gy1fmy31p3qitj207607674r.jpg" style="max-width:55%;" alt="welcome!" />
+<img src="./images.jpg" style="max-width:55%;" alt="welcome!" />
