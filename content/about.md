@@ -38,4 +38,4 @@ slug: "about"
 
 **欢迎关注微信公众账号**
 
-<img src="./images/qrcode.jpg" style="max-width:55%;" alt="welcome!" />
+<img src="../images/qrcode.jpg" style="max-width:55%;" alt="welcome!" />
