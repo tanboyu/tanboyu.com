@@ -15,7 +15,8 @@ tags: []
 conda config --set show_channel_urls yes
 ```
 
-2. 在“c:\users\<用户名>” 对应用户名的目录下会有一个“.condarc”文件，修改如下
+2. 在“c:\users\<用户名>” 对应用户名的目录下会有一个“.condarc”文件，修改如下：
+
 ```bash
 ssl_verify: true
 show_channel_urls: true
@@ -34,12 +35,15 @@ custom_channels:
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
+
 3. 将miniconda3的这几个目录添加进环境变量“PATH”中,目录路径因人而已，自己需查找正确的目录路径。我的是如下
-```bashe
+
+```bash
 C:\ProgramData\Miniconda3
 C:\ProgramData\Miniconda3\Library\bin
 C:\ProgramData\Miniconda3\Scripts
 ```
+
 如此，再运行conda命令操作不再报错。
 
 
