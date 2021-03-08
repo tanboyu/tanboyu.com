@@ -1,14 +1,15 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-author：
+author:
 date: {{ .Date }}
 draft: true 
 description: ""
 slug: "" 
+mathjax: false 
+type: post
+tags:
+	-
 categories: 
 	- 
-tags:
-	- "课件"
-slides:
-	-
+
 ---
