@@ -17,7 +17,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = "©BY.Tan studio"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-# defaultContentLanguage = "zh-cn"         # Default language to use
+ defaultContentLanguage = "zh-cn"         # Default language to use
 
 # Highlight options.
 # See https://gohugo.io/content-management/syntax-highlighting/
