@@ -4,14 +4,12 @@ author: 波比
 date: '2018-12-08'
 slug: 循证医学与临床合理用药-培训班课件
 mathjax: true 
-type: post
+type: slides
 tags:
   - 循证医学
   - 合理用药
-
 categories:
   - 讲座
-
 slides:
   - 循证医学
 ---
