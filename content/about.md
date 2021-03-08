@@ -9,7 +9,7 @@ weight: 50
 comment: false
 mathjax: false
 ---
-E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="../images/email.png" style="vertical-align: middle;" /></a>
+E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
 药学硕士，副主任临床药师。对循证医学、数据科学、药学信息、生物信息学相关内容比较感兴趣。
 
@@ -46,4 +46,4 @@ E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><
 
 ## 个人公众账号
 
-<img src="../images/qrcode.jpg" style="max-width:55%;" alt="welcome!" />
+<img src="/images/qrcode.jpg" width="25%" alt="welcome!" />

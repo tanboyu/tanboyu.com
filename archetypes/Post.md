@@ -8,8 +8,7 @@ slug: ""
 mathjax: false 
 type: post
 tags:
-	-
+-
 categories: 
-	- 
-
+-
 ---
