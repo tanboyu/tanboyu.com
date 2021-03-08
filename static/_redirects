@@ -1,3 +1,0 @@
-/slides/*     https://slides.tanboyu.com/:splat
-https://by.netlify.com/*  https://www.tanboyu.com/:splat  301!
-http://by.netlify.com/*   https://www.tanboyu.com/:splat  301!
