@@ -1,51 +1,125 @@
-baseurl = "/"
-languageCode = "en-us"
+# This is a simple configuration.
+# If you want to see the full configuration, please check `full-config.toml` .
+# And see https://gohugo.io/getting-started/configuration/ .
+
+baseURL = "http://localhost:1313/"
+languageCode = "zh"
 title = "BY.Tan"
-theme = "hugo-ivy"
-googleAnalytics = ""
-disqusShortname = "bytan"
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-footnotereturnlinkcontents = "↩"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "jane"
 
+hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+paginate = 5              # Number of articles displayed on the homepage  # 首页每页显示的文章数
+rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
+disqusShortname = "bytan"      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
+copyright = "©BY.Tan studio"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
-    slides = "/slides/:year/:month/:day/:slug/"
+# language support # en / zh-cn / other... translations present in i18n/
+defaultContentLanguage = "zh-cn"         # Default language to use
 
+# Highlight options.
+# See https://gohugo.io/content-management/syntax-highlighting/
+PygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
+PygmentsUseClasses = true # Use CSS classes to format highlighted code
+PygmentsCodefencesGuessSyntax = true
+PygmentsOptions = "linenos=table"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    # topic = "topics"
+    slides = "slides"
+
+[author]                  # essential                     # 必需
+  name = "BY.Tan"
+
+[sitemap]                 # essential                     # 必需
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
 [[menu.main]]
-    name = "主页"
-    url = "/"
-    weight = 1
+  name = "主题"
+  weight = 20
+  identifier = "categories"
+  url = "/categories/"
 [[menu.main]]
-    name = "关于"
-    url = "/about/"
-    weight = 2
+  name = "课件"
+  weight = 30
+  identifier = "slides"
+  url = "/slides/"
 [[menu.main]]
-    name = "分类"
-    url = "/categories/"
-    weight = 3
+  name = "标签"
+  weight = 40
+  identifier = "tags"
+  url = "/tags/"
 [[menu.main]]
-    name = "讲课"
-    url = "/slides/"
-    weight = 4
+  name = "归档"
+  weight = 50
+  identifier = "archives"
+  url = "/post/"
 [[menu.main]]
-    name = "标签"
-    url = "/tags/"
-    weight = 5
-[[menu.main]]
-    name = "订阅"
-    url = "/index.xml"
-    weight = 6
+  name = "关于"
+  weight = 60
+  identifier = "about"
+  url = "/about/"
+
 
 
 [params]
-    description = "记录点滴"
-    footer = "&copy; [Boyu Tan](https://www.tanboyu.com) 2017 | [Github](https://github.com/tanboyu) | [Twitter](https://twitter.com/drtanboyu)"
-	  customJS = ["js/fix-toc.js", "js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js", "js/external-link.js", "js/alt-title.js"]
+  since = "2015"            # Site creation time          # 站点建立时间
+  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
+  rssFullContent = true     # if false, Rss feed instead of the summary
 
-  highlightjsVersion = "9.12.0"
-  highlightjsCDN = "//cdn.bootcss.com"
-  highlightjsLang = ["r", "yaml", "tex"]
-  highlightjsTheme = "github"
+  # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
+  logoTitle = "BY.Tan"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["BY.Tan", "谭波宇药师","工作室"]
+  description = "谭波宇的个人博客网站.博客内容大多是日常文献阅读、数据科学、信息药学、循证药学、生物信息学方面的内容。如果你对这些内容也感兴趣欢迎订阅。"
+
+  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
+  archive-paginate = 5
+
+  # show word count and read time ?                       # 是否显示字数统计与阅读时间
+  moreMeta = true
+  
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true                                                                            # 是否开启目录
+  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  # add custom info on the footer.   # 添加备案信息
+  # customFooter = "京ICP备10000000号-1"
+  
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+
+  [params.reward]                                         # 文章打赏
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
+    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+
+	
+  [params.social]                                         # 社交链接
+    a-email = "mailto:dr.tanboyu@gmail.com"
+    c-twitter = "https://twitter.com/DrTanboyu"
+    f-google = "https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=b8E7lQEAAAAJ"
+    g-github = "https://github.com/tanboyu"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"  # blackfriday or goldmark
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
