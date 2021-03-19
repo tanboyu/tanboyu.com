@@ -2,7 +2,7 @@
 title: 'ggplot2画火山图'
 author: 波比
 date: '2017-04-17'
-slug: ggplot2画火山图
+slug: ggplot2-for-volcano
 categories:
   - 生物信息学
 tags:

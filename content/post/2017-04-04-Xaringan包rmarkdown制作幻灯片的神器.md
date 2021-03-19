@@ -2,7 +2,7 @@
 title: 'xaringan包rmarkdown制作幻灯片的神器'
 author: 波比
 date: '2017-04-04'
-slug: xaringan包rmarkdown制作幻灯片的神器
+slug: xaringan-for-slides
 categories:
   - R语言
 tags: 
