@@ -52,17 +52,17 @@ tags:
 
 结合到临床实践中，我们可能还需要结合临床问题“PICO”要素来凝练。即：
 
-  - [x] P（Patient/Population）研究对象/人群
+  - P（Patient/Population）研究对象/人群
   
-  - [x] I（Intervention）干预方法/暴露因素
+  - I（Intervention）干预方法/暴露因素
   
-  - [x] C（Comparison/Control）对照
+  - C（Comparison/Control）对照
   
-  - [x] O（Outcome）结局（研究目的）、终点事件、终点指标
+  - O（Outcome）结局（研究目的）、终点事件、终点指标
   
-  - [ ] T（Timing）时间(疗程、随访周期等)
+  - T（Timing）时间(疗程、随访周期等)
   
-  - [ ] S（Study type）研究类型（随机临床试验、队列研究、病例对照研究、横断面调查等）
+  - S（Study type）研究类型（随机临床试验、队列研究、病例对照研究、横断面调查等）
   
   除了PICO要素，选择合适的合理的研究时间T（timing）和设计类型S（study type）也是临床研究很重要的因素。
   
