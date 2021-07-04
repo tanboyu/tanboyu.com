@@ -2,7 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 author:
 date: {{ .Date }}
-draft: true 
+draft: false 
 slug: "" 
 mathjax: false 
 type: post

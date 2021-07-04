@@ -1,10 +1,10 @@
-description = "Writer, Traveler, Food Lover."
+description = "Data science enthusiast, Food Lover."
 
 [name]
-display = "Ted Williams"
+display = "波叔"
 
 # [image]
-# url = ""
+# url = "https://www.tanboyu.com/"
 # width = 128
 # height = 128
 
@@ -12,4 +12,4 @@ display = "Ted Williams"
 # description = ""
 
 # [en.name]
-# display = "Ted"
+# display = "BY.Tan"
