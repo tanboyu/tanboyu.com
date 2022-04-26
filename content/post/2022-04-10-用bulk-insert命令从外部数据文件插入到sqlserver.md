@@ -1,8 +1,8 @@
 ---
-title: 用BULK INSERT命令从外部数据文件插入到SQL Server
+title: 用BULK INSERT命令从插入外部TXT文件到SQL Server
 author: 波比
 date: '2022-04-10'
-slug: 用bulk-insert命令从外部数据文件插入到SQLServer
+slug: Insert_TXT_file_to_SQL_Server_with_BULK_INSERT_commandr
 categories:
   - 数据分析
 tags:
@@ -16,13 +16,13 @@ type: post
 
 最近有一批数据前期经过R语言清洗后需要插入到SQL Server。尝试了多种办法：
 
- 1. 用`r DBI`、`r RODBC`
+ 1. 用`DBI`、`RODBC`包
  
 从目前经验来看，用R来写入数据库只适应于少量的数据，如果数据量大，写入效率极低。这批数据写入跑了1天1晚。
  
  2. 用Kettle Spoon
  
-用方法1写入了一个表，想着效率太低了，考虑用ETL插入数据。用Kettle Spoon效率要快很多倍，但是也有一些问题。可能我没处理的好，第一次用。列分割的时候指定分隔符，遇到空值老是有分割错的情况，导致插入的数据错列。如果是数据比较规整，用ETL效率比R写入快很多。几万十条记录，几分钟能搞定。
+用方法1写入了一个表，想着效率太低了，考虑用ETL工具插入数据。Kettle Spoon是一个非常经典的ETL工具，用Kettle Spoon效率比R单线程写入要快几十倍。可能我第一次用没处理好的缘故，也出现了一些问题。例如：列分割的时候指定分隔符，遇到空值老是有分割错的情况，导致插入的数据错列。如果是数据比较规整，用ETL效率比R写入快很多。几万十条记录，几分钟能搞定。
 
 3. 用SQL Server命令直接插入外部文件
 
@@ -75,5 +75,5 @@ FirstRow = 2
  - `FirstRow` 数据从第2行开始导入。
  
  
- 
+ 用这种方法效率上与ETL工具差不多太多，感觉还要快，更重要的是简单直接，把脚本写好，测试没有问题就可以批量导入数据了。
 
