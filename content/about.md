@@ -11,7 +11,7 @@ mathjax: false
 ---
 E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
-药学硕士，副主任临床药师。对循证医学、数据科学、药学信息、生物信息学相关内容比较感兴趣。现负责运营基于[Redcap系统](https://www.30plans.com)搭建的临床数据采集系统。
+副主任临床药师。对循证医学、数据科学、药学信息、生物信息学相关内容比较感兴趣。现负责运营基于[Redcap系统](https://www.30plans.com)搭建的临床数据采集系统。
 
 
 ## 工作经历
@@ -23,12 +23,6 @@ E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><
 ## 援外经历
 
 *	2015年5月 - 8月参加中国（湖南）援塞抗疫医疗队，支援塞拉利昂抗击埃博拉病毒。
-
-## 学习经历
-
-*	2008年 - 2011年  湖南师大医学院，药学硕士
-* 2009年3月 - 5月  四川大学华西医院中国循证医学中心
-
 
 ## 研究兴趣
 
