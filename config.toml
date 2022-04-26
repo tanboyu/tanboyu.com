@@ -107,7 +107,7 @@ PygmentsOptions = "linenos=table"
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.reward]                                         # 文章打赏
-    enable = false
+    enable = true
     wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
