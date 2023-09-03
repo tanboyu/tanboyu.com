@@ -43,6 +43,6 @@ E-mail: <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><
 2.  临床科研随访平台 [2017-2019] 荣获第四届中国药学服务创新大赛南部赛区优秀奖
 3.  静脉用药调配中心医嘱自定义审查系统 [2013-2015]  荣获2015年度医疗新技术奖
 
-## 个人公众账号
+## 个人公众号
 
 <img src="/images/qrcode.jpg" width="25%" alt="welcome!" />
