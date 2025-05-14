@@ -7,7 +7,8 @@ categories:
   - 抗击埃博拉
 tags:
   - 埃博拉
-  - freetown 
+  - freetown
+  - life
 ---
 
 ![图片](http://r.photo.store.qq.com/psb?/V10n8yPI3UP4oC/EfPqlm1xyHYpXqZVJRDPFwyLhuGbMzubrN7xNIxZxlE!/o/dL4UVG5lKAAA&ek=1&kp=1&pt=0&bo=iBeAAtM6QAYFAJE!&t=5&su=1260494945&tm=1484499600&sce=0-12-12&rf=2-9)

@@ -9,6 +9,7 @@ tags:
   - MIMIC-iii数据库
   - 数据库字典
   - 数据挖掘
+  - tech
 ---
 
 ## 1. ADMISSIONS —— 入院信息

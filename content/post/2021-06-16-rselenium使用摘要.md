@@ -8,8 +8,9 @@ categories:
 tags:
   - 爬虫
   - 自动化
-draft: no
-mathjax: no
+  - tech
+draft: false
+mathjax: false
 type: post
 ---
 

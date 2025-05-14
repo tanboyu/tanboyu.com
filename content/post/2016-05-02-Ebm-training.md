@@ -8,6 +8,7 @@ categories:
 tags:
   - EBM
   - 数据分析
+  - research
 ---
 
 《循证医学》课程培训计划

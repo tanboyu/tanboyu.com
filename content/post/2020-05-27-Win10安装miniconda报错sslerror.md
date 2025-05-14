@@ -5,7 +5,11 @@ date: '2020-05-27'
 slug: install_miniconda_reported_sslerror
 categories:
   - 网络技术
-tags: []
+tags:
+  - python
+  - conda
+  - error
+  - tech
 ---
 
 工作站（Win10）重新安装了miniconda之后，运行**conda update conda** 老提示SSLError错误。由于修改了国内镜像，以为是镜像url出了问题，点击发现镜像url可以访问，百思不得解。一顿试错操作后发现如下为正解。

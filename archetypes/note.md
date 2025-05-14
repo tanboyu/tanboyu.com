@@ -4,12 +4,13 @@ author:
 date: {{ .Date }}
 draft: false
 slug: "" 
-mathjax: false 
-type: post
+math: false 
+type: note
 tags:
 - 文献
 - 解读
--
+- research
+
 categories: 
 - 文献解读
 ---

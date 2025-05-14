@@ -10,6 +10,7 @@ tags:
   - 使用手册
   - 指南
   - 生物信息学
+  - research
 ---
 
 edgeR包主要是用于利用来自不同技术平台的read数（包括RNA-seq，SAGE或者ChIP-seq等）来鉴别差异表达或者差异标记（ChIP-seq）。主要是利用了多组实验的精确统计模型或者适用于多因素复杂实验的广义线性模型。所以有时作者也把前者叫做“经典edgeR”， 后者叫做”广义线性模型 edgeR“。这里定义的read数是可以指基因水平、外显子水平、转录本水平或者标签水平等，这个由用户根据自己数据分析的实际需要而定。这里作者也列举了一些差异表达鉴定方面的文献：包括edgeR刚发布时的文献–“edgeR: a Bioconductor package for differential expression analysis of digital gene expression data”以及后来的一些改进文章。

@@ -7,8 +7,9 @@ categories:
   - R语言
 tags:
   - 画图
-draft: no
-mathjax: no
+  - tech
+draft: false
+mathjax: false
 type: post
 ---
 

@@ -12,6 +12,7 @@ tags:
   - openssl
   - sslforfree
   - SSL证书
+  - tech
 ---
 
 1. 申请SSL证书 https://www.sslforfree.com/

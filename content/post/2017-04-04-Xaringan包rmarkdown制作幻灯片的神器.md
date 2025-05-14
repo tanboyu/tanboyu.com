@@ -8,6 +8,7 @@ categories:
 tags: 
   - markdown写作
   - xaringan包
+  - tech
 ---
 
 Rstudio最近出来一些包简直要逆天了，这完全已经不再局限于IDE这样的工具了。Rstudio已经成为了我日常工作中的工具，写代码、画图、写文档、制作幻灯片，写博客。

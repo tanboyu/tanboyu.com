@@ -1,0 +1,257 @@
+# hugo.yaml
+
+baseURL: "https://www.taboyu.com/" # 绑定的域名
+title: ⌈灵犀·随想⌋
+pagination.pagerSize: 10 # 首页每页显示的文章数
+theme: PaperMod # 主题名称，和themes文件夹下的一致
+languageCode: zh-cn # en-us
+
+hasCJKLanguage: true # 自动检测是否包含中文日文韩文,如果文章中使用了很多中文引号的话可以开启
+enableInlineShortcodes: true
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+permalinks:
+  post: "/:title/"
+  # post: "/:year/:month/:day/:title/"
+
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+
+languages:
+  zh:
+    languageName: "Chinese"
+    # contentDir: content/english
+    weight: 1
+
+    menu:
+      main:
+        - identifier: search
+          name: 搜索
+          url: search
+          weight: 1
+        - identifier: home
+          name: 主页
+          url: /
+          weight: 2
+        - identifier: post
+          name: 文章
+          url: /post
+          weight: 3
+        - identifier: archives
+          name: 时间轴
+          url: /archives
+          weight: 20
+        # - identifier: categories
+        #   name: 分类
+        #   url: categories
+        #   weight: 30
+        - identifier: tags
+          name: 标签
+          url: /tags
+          weight: 40
+        - identifier: about
+          name: 关于
+          url: /about
+          weight: 50
+        # - identifier: links
+        #   name: 友链
+        #   url: links
+        #   weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "BY.Tan Studio"
+  author: Bobby
+  # author: ["Me", "You"] # multiple authors
+  # homeInfoParams:
+  # Title: ⌈灵犀·随想⌋
+  # Content:  ...
+
+  profileMode:
+    enabled: true
+    title: BY.Tan
+    subtitle: "--“忽有微光照心隅，灵感偶至莫踌躇”--"
+    imageUrl: "./images/logo.jpg"
+    imageTitle: "波叔"
+    imageWidth: 100
+    imageHeight: 100
+    buttons:
+      - name: 👨🏻‍💻技术
+        url: tags/tech
+      - name: 📕探索
+        url: tags/research
+      - name: 📖 阅读
+        url: tags/read
+      - name: 🏖 感悟
+        url: tags/life
+      - name: 🏠 小程序
+        url: https://30plans.shinyapps.io/apps/
+        weight: 10
+
+  defaultTheme: light # defaultTheme: light or  dark
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecialistPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true # 显示面包屑导航
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
+  ShowLastMod: true #显示文章更新时间
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+  comments: true
+  math: true
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/tanboyu"
+    # - name: twitter
+    #   url:  "img/twitter.png"
+    # - name: bilibili
+    #   url: "https://space.bilibili.com/"
+    - name: email
+      url: "mailto:tanboyu@outlook.com"
+    - name: RSS
+      url: "index.xml"
+
+    # - name: facebook
+    #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+    # - name: instagram
+    #   url: "img/instagram.png"
+    # - name: QQ
+    #   url: "img/qq.png"
+    # - name: Phone
+    #   url: "img/phone.png"
+
+  # editPost:
+  #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #     Text: "Suggest Changes" # edit text
+  #     appendFilePath: true # to append file path to Edit link
+
+  # label: # 左上角图标
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    favicon: "img/logo.gif"
+    favicon16x16: "img/logo.gif"
+    favicon32x32: "img/logo.gif"
+    apple_touch_icon: "logo.gif"
+    safari_pinned_tab: "logo.gif"
+    disableFingerprinting: true
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]
+
+  StartYear: 2015 # 底部开始年份
+  # FilingNo: 浙ICP备2024085492号-1 # 底部备案号
+  # PublicSecurityIconLink:  # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  # PublicNetworkSecurity:  # 底部公网安备号
+
+  # Reward: true #打赏是否开启
+  #   # 打赏微信图片地址，
+  #   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
+  #   # 填写格式为img/wechat_pay.png
+  # WechatPay: img/wechat_pay.png
+  # Alipay: img/alipay.png #打赏支付宝图片地址
+
+  twikoo:
+    version: 1.4.11
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    # style: monokai
+    style: darcula
+  extensions:
+    passthrough:
+      delimiters:
+        block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+        inline:
+          - - \(
+            - \)
+      enable: true
+    # style: github    # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+    # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+    # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
+    # lineNoStart：行号从编号几开始，一般从 1 开始。
+    # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
+    # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+    # noClasses：使用 class 标签，而不是内嵌的内联样式
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  x:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true

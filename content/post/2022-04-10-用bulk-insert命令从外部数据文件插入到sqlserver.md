@@ -9,8 +9,9 @@ tags:
   - BULK INSERT
   - insert
   - SQL server
-draft: no
-mathjax: no
+  - tech
+draft: false
+mathjax: false
 type: post
 ---
 
