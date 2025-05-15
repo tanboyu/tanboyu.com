@@ -25,7 +25,7 @@ permalinks:
   # post: "/:year/:month/:day/:title/"
 
 defaultContentLanguage: zh
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false # 默认语言是否放在子目录中
 
 languages:
   zh:
