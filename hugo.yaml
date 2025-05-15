@@ -30,7 +30,7 @@ defaultContentLanguageInSubdir: false # 默认语言是否放在子目录中
 languages:
   zh:
     languageName: "Chinese"
-    # contentDir: content/english
+    contentDir: content/zh
     weight: 1
 
     menu:
