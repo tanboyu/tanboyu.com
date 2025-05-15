@@ -25,48 +25,52 @@ permalinks:
   # post: "/:year/:month/:day/:title/"
 
 defaultContentLanguage: zh
-defaultContentLanguageInSubdir: false # 默认语言是否放在子目录中
+# defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
 
-languages:
-  zh:
-    languageName: "Chinese"
-    contentDir: content/zh
-    weight: 1
+# languages:
+#   en:
+#     languageName: "English"
+#     contentDir: content/English
+#     weight: 2
+# zh:
+#   languageName: "Chinese"
+#   contentDir: content/zh
+#   weight: 1
 
-    menu:
-      main:
-        - identifier: search
-          name: 搜索
-          url: search
-          weight: 1
-        - identifier: home
-          name: 主页
-          url: /
-          weight: 2
-        - identifier: posts
-          name: 文章
-          url: /posts
-          weight: 3
-        - identifier: archives
-          name: 时间轴
-          url: /archives
-          weight: 20
-        # - identifier: categories
-        #   name: 分类
-        #   url: categories
-        #   weight: 30
-        - identifier: tags
-          name: 标签
-          url: /tags
-          weight: 40
-        - identifier: about
-          name: 关于
-          url: /about
-          weight: 50
-        # - identifier: links
-        #   name: 友链
-        #   url: links
-        #   weight: 60
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      url: search
+      weight: 1
+    - identifier: home
+      name: 主页
+      url: /
+      weight: 2
+    - identifier: posts
+      name: 文章
+      url: /posts
+      weight: 3
+    - identifier: archives
+      name: 时间轴
+      url: /archives
+      weight: 20
+    # - identifier: categories
+    #   name: 分类
+    #   url: categories
+    #   weight: 30
+    - identifier: tags
+      name: 标签
+      url: /tags
+      weight: 40
+    - identifier: about
+      name: 关于
+      url: /about
+      weight: 50
+    # - identifier: links
+    #   name: 友链
+    #   url: links
+    #   weight: 60
 
 outputs:
   home:
