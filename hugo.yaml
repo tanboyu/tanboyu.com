@@ -1,6 +1,6 @@
 # hugo.yaml
 
-baseURL: "https://med.ac.cn" # 绑定的域名
+baseURL: "https://www.tanboyu.com" # 绑定的域名
 title: ⌈灵犀·随想⌋
 pagination.pagerSize: 10 # 首页每页显示的文章数
 theme: PaperMod # 主题名称，和themes文件夹下的一致
