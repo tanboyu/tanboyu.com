@@ -25,7 +25,7 @@ permalinks:
   # post: "/:year/:month/:day/:title/"
 
 defaultContentLanguage: zh
-defaultContentLanguageInSubdir: false # 默认语言是否放在子目录中
+defaultContentLanguageInSubdir: true # 默认语言是否放在子目录中
 
 languages:
   zh:
@@ -43,9 +43,9 @@ languages:
           name: 主页
           url: /
           weight: 2
-        - identifier: post
+        - identifier: posts
           name: 文章
-          url: /post
+          url: /posts
           weight: 3
         - identifier: archives
           name: 时间轴
