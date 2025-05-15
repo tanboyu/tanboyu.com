@@ -43,9 +43,9 @@ languages:
           name: 主页
           url: /
           weight: 2
-        - identifier: post
+        - identifier: posts
           name: 文章
-          url: /post
+          url: /posts
           weight: 3
         - identifier: archives
           name: 时间轴
@@ -92,15 +92,18 @@ params:
     imageWidth: 100
     imageHeight: 100
     buttons:
-      - name: 👨🏻‍💻技术
+      - name: 💻技术
         url: tags/tech
-      - name: 📕探索
+      - name: 🧬探索
         url: tags/research
-      - name: 📖 阅读
+      - name: 📖阅读
         url: tags/read
-      - name: 🏖 感悟
+      - name: 💎感悟
         url: tags/life
-      - name: 🏠 小程序
+      - name: 📋EDC
+        url: https://www.30plans.com/
+        weight: 20
+      - name: 💊小程序
         url: https://30plans.shinyapps.io/apps/
         weight: 10
 
