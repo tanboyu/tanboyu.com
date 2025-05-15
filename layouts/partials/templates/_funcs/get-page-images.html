@@ -6,10 +6,7 @@
   {{- $featured := $resources.GetMatch "*feature*" -}}
   {{- if not $featured }}{{ $featured = $resources.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
   {{- with $featured }}
-    {{- $imgs = $imgs | append (dict
-      "Image" .
-      "RelPermalink" .RelPermalink
-      "Permalink" .Permalink) }}
+	{{- $imgs = $imgs | append (dict "Image" . "RelPermalink" .RelPermalink "Permalink" .Permalink) }}
   {{- end }}
 {{- end }}
 {{/* Use the first one of site images as the fallback. */}}
