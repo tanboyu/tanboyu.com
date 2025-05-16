@@ -51,6 +51,9 @@ menu:
       name: 文章
       url: /posts
       weight: 3
+    - identifier: series
+      name: 专题
+      url: /series
     - identifier: archives
       name: 时间轴
       url: /archives
@@ -91,7 +94,7 @@ params:
     enabled: true
     title: BY.Tan
     subtitle: "--“忽有微光照心隅，灵感偶至莫踌躇”--"
-    imageUrl: "./images/logo.jpg"
+    imageUrl: "./images/logo_y.webp"
     imageTitle: "波叔"
     imageWidth: 100
     imageHeight: 100
