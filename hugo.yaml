@@ -136,6 +136,8 @@ params:
   comments: true
   math: true
 
+  externalLinksIcon: true
+  externalLinksNewTab: true
   # 增加giscus评论功能
 
   giscus:
