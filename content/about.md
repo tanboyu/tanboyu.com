@@ -36,9 +36,13 @@ cover:
 
 ## 关于我
 
-<img src="https://www.tanboyu.com/images/logo.jpg" alt="BY.Tan" width="150" height="150">
+<div style="text-align: center;">
+  <img src="https://www.tanboyu.com/images/logo.jpg" alt="Boyu Tan" width="120" height="120" style="display: block; margin: 0 auto;">
+</div>
 
-我是一名热衷数据科学的临床药师，在定量药理学、临床数据挖掘、药物警戒和循证医学等领域展开探索与实践，积累了一些经验。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
+我是一名热衷数据科学的临床药师，在定量药理学、临床数据挖掘、药物警戒和循证医学等领域展开探索与实践，积累了一些经验。
+
+这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
 
 ## 小作品
 
@@ -50,7 +54,7 @@ cover:
 
 ## 联系方式
 
-- 个人邮箱
+- 邮箱
   
   <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
