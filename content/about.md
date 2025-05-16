@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "About"
 date: 2015-05-09T21:08:12+08:00
 lastmod: 2025-05-14T21:09:48+08:00
 author: ["Bobby"]
@@ -8,9 +8,10 @@ tags:
 - 简介
 - about
 
+
 keywords:
 - 简介
-- about
+
 
 description: "" # 文章描述，与搜索优化相关
 summary: "" # 文章简单描述，会展示在主页
@@ -33,34 +34,26 @@ cover:
     relative: false
 ---
 
-Hi,大家好！ 我是一位从药学跨界数据科学的药师（BY.Tan）。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
-<a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
+## 关于我
 
+![BYTan](./images/logo.png)
 
-## 研究兴趣
+我是一名热衷数据科学的临床药师，在定量药理学、临床数据挖掘、药物警戒和循证医学等领域展开探索与实践，积累了一些经验。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
 
-1.  数据挖据
-    - 大数据下的行为特征识别与预测
-    - 临床数据趋势分析与预测
-    - 真实世界医疗数据挖掘
-    - 药物警戒数据挖掘    - 
-2.  定理药理学
-    - Poppk
-    - PK/PD
-    
-3.  生物信息学
+## 小作品
 
-4.  循证医学/系统评价
-
-
-## 小作
-
-1.  药学BI平台 [基于R语言shiny包开发]
-2.  [万古霉素AUC计算器](https://30plans.shinyapps.io/apps/) 
-3.  [新生儿早发败血症风险评估工具](https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2)
+1.  [万古霉素AUC计算器](https://30plans.shinyapps.io/apps/) 
+2.  [新生儿早发败血症风险评估工具](https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2)
+3.  药学BI平台 [基于R语言shiny包开发]
 4.  临床科研随访平台 [2017-2019] 荣获第四届中国药学服务创新大赛南部赛区优秀奖
 5.  静脉用药调配中心医嘱自定义审查系统 [2013-2015]  荣获2015年度医疗新技术奖
 
-## 个人公众号
+## 联系方式
+
+- 个人邮箱
+  
+  <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
+
+- 个人公众号
 
 <img src="/images/qrcode.jpg" width="25%" alt="welcome!" />
