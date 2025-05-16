@@ -1,6 +1,6 @@
 ---
-title: "博主"
-date: 2025-05-14T21:09:48+08:00
+title: "About"
+date: 2015-05-09T21:08:12+08:00
 lastmod: 2025-05-14T21:09:48+08:00
 author: ["Bobby"]
 
@@ -12,7 +12,7 @@ keywords:
 - 简介
 - about
 
-description: "一位从药学跨界数据科学的临床药师" # 文章描述，与搜索优化相关
+description: "" # 文章描述，与搜索优化相关
 summary: "" # 文章简单描述，会展示在主页
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
@@ -33,7 +33,7 @@ cover:
     relative: false
 ---
 
-Hi,大家好！ 我是一位“大叔级”的临床药师（BY.Tan）。
+Hi,大家好！ 我是一位从药学跨界数据科学的药师（BY.Tan）。
 
 [⌈灵犀·随想⌋](https://www.tanboyu.com)是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！
 <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
