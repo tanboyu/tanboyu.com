@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: ""
 date: 2015-05-09T21:08:12+08:00
 lastmod: 2025-05-14T21:09:48+08:00
 author: ["Bobby"]
@@ -33,9 +33,7 @@ cover:
     relative: false
 ---
 
-Hi,大家好！ 我是一位从药学跨界数据科学的药师（BY.Tan）。
-
-[⌈灵犀·随想⌋](https://www.tanboyu.com)是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！
+Hi,大家好！ 我是一位从药学跨界数据科学的药师（BY.Tan）。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
 <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
 
