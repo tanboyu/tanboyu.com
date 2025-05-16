@@ -136,6 +136,24 @@ params:
   comments: true
   math: true
 
+  # 增加giscus评论功能
+
+  giscus:
+    repo: "tanboyu/comments"
+    repoId: "R_kgDOOrQPDw"
+    category: "Announcements"
+    categoryId: "DIC_kwDOOrQPD84CqOu9"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "top"
+    lightTheme: "light"
+    darkTheme: "dark"
+    lang: "zh-CN"
+    discussionTitle: "欢迎来到 ⌈灵犀·随想⌋" # 按需填写，评论框上方的标题
+    discussionSubtitle: "感谢您的耐心阅读！来选个表情，或者留个评论吧！" # 按需填写，评论框上方的副标题
+
   socialIcons:
     - name: github
       url: "https://github.com/tanboyu"
@@ -244,24 +262,6 @@ markup:
     # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
     # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
     # noClasses：使用 class 标签，而不是内嵌的内联样式
-
-# 增加giscus评论功能
-
-giscus:
-  repo: "tanboyu/comments"
-  repoId: "R_kgDOOrQPDw"
-  category: "Announcements"
-  categoryId: "DIC_kwDOOrQPD84CqOu9"
-  mapping: "pathname"
-  strict: "0"
-  reactionsEnabled: "1"
-  emitMetadata: "0"
-  inputPosition: "top"
-  lightTheme: "light"
-  darkTheme: "dark"
-  lang: "zh-CN"
-  discussionTitle: "欢迎来到 ⌈灵犀·随想⌋" # 按需填写，评论框上方的标题
-  discussionSubtitle: "感谢您的耐心阅读！来选个表情，或者留个评论吧！" # 按需填写，评论框上方的副标题
 
 privacy:
   vimeo:
