@@ -132,18 +132,26 @@
 
 .pe-reward-qr-wrap {
     background-color: var(--theme);
-    max-width: 80rem;
-    height: 32rem;
+    max-width: 64rem;
+    /* 从80rem缩小到64rem，约20% */
+    height: 25.6rem;
+    /* 从32rem缩小到25.6rem，约20% */
     border-radius: .5rem;
     margin: 9.6rem auto;
+    /* 保持原样，或可适当减小 */
     text-align: center;
     position: relative;
     display: flex;
     justify-content: center;
+    transform: scale(0.8);
+    /* 整体缩放80%，可选方式 */
+    transform-origin: center;
+    /* 缩放中心点 */
 }
 
 .pe-reward-img {
-    margin: 4.8rem;
+    margin: 3.8rem;
+    /* 从4.8rem缩小到3.8rem，约20% */
 }
 
 .pe-reward-qr-wrap img {
@@ -154,12 +162,16 @@
 
 @media screen and (max-width: 568px) {
     .pe-reward-qr-wrap {
-        max-width: 40rem;
-        height: 20rem;
-        margin: 20rem auto;
+        max-width: 32rem;
+        /* 从40rem缩小到32rem，约20% */
+        height: 16rem;
+        /* 从20rem缩小到16rem，约20% */
+        margin: 16rem auto;
+        /* 从20rem调整到16rem，适配小屏幕 */
     }
 
     .pe-reward-img {
-        margin: 3rem;
+        margin: 2.4rem;
+        /* 从3rem缩小到2.4rem，约20% */
     }
 }
