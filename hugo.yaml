@@ -54,6 +54,7 @@ menu:
     - identifier: series
       name: 专题
       url: /series
+      weight: 4
     - identifier: archives
       name: 时间轴
       url: /archives
