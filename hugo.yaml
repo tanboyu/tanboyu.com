@@ -104,6 +104,8 @@ params:
         url: tags/tech
       - name: 🧬探索
         url: tags/research
+      - name: 📚专题
+        url: /series
       - name: 📖阅读
         url: tags/read
       - name: 💎感悟
