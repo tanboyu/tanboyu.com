@@ -34,10 +34,8 @@ cover:
     relative: false
 ---
 
-## 关于我
-
 <div style="text-align: center;">
-  <img src="https://www.tanboyu.com/images/logo.jpg" alt="Boyu Tan" width="120" height="120" style="display: block; margin: 0 auto;">
+  <img src="https://www.tanboyu.com/images/logo_y.webp" alt="Boyu Tan" width="120" height="120" style="display: block; margin: 0 auto;">
 </div>
 
 我是一名热衷数据科学的临床药师，在定量药理学、临床数据挖掘、药物警戒和循证医学等领域展开探索与实践，积累了一些经验。
