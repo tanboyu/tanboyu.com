@@ -136,6 +136,12 @@ params:
   comments: true
   math: true
 
+  # 赞赏
+  enableReward: true
+  rewardDescription: 若本文对您有所帮助，不妨点击上方按钮请作者喝杯咖啡！
+  WechatPay: img/wechat_pay.png #打赏微信图片地址
+  # Alipay: img/alipay.png #打赏支付宝图片地址
+
   externalLinksIcon: true
   externalLinksNewTab: true
   # 增加giscus评论功能
@@ -222,8 +228,6 @@ params:
   #   # 打赏微信图片地址，
   #   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   #   # 填写格式为img/wechat_pay.png
-  # WechatPay: img/wechat_pay.png
-  # Alipay: img/alipay.png #打赏支付宝图片地址
 
   twikoo:
     version: 1.4.11
