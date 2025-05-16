@@ -1,5 +1,5 @@
 ---
-title: "BY.Tan"
+title: "博主简介"
 date: 2025-05-14T21:09:48+08:00
 lastmod: 2025-05-14T21:09:48+08:00
 author: ["Bobby"]
@@ -12,8 +12,8 @@ keywords:
 - 简介
 - about
 
-description: "Hi,大家好！我是一位临床药师（BY.Tan），在职业生涯中逐渐迷上数据科学、药学信息与生物信息学的研究与实践。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！" # 文章描述，与搜索优化相关
-summary: "Hi,大家好！我是一位临床药师（BY.Tan），在职业生涯中逐渐迷上数据科学、药学信息与生物信息学的研究与实践。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！" # 文章简单描述，会展示在主页
+description: "Hi,大家好！我是一位临床药师（BY.Tan），热衷于数据科学、药学信息与生物信息学的研究与实践。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！" # 文章描述，与搜索优化相关
+summary: "" # 文章简单描述，会展示在主页
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
 draft: false # 是否为草稿
@@ -34,8 +34,7 @@ cover:
 ---
 
 Hi,大家好！我是一位临床药师（BY.Tan），在职业生涯中逐渐迷上数据科学、药学信息与生物信息学的研究与实践。这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，欢迎你加入交流，共同探寻知识的乐趣！
-
-Email:<a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
+<a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
 
 ## 研究兴趣
