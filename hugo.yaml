@@ -40,23 +40,23 @@ permalinks:
 menu:
   main:
     - identifier: search
-      name: 搜索
+      name: 🔎搜索
       url: search
       weight: 1
     - identifier: home
-      name: 主页
+      name: 🏡主页
       url: /
       weight: 2
     - identifier: posts
-      name: 文章
+      name: 📃文章
       url: /posts
       weight: 3
     - identifier: series
-      name: 专题
+      name: 📚专题
       url: /series
       weight: 4
     - identifier: archives
-      name: 时间轴
+      name: 📇时间轴
       url: /archives
       weight: 20
     # - identifier: categories
@@ -64,11 +64,11 @@ menu:
     #   url: categories
     #   weight: 30
     - identifier: tags
-      name: 标签
+      name: 🏷️标签
       url: /tags
       weight: 40
     - identifier: about
-      name: 关于
+      name: 👨‍⚕️关于
       url: /about
       weight: 50
     # - identifier: links
