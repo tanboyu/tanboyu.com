@@ -108,8 +108,6 @@ params:
         url: /series
       - name: 📖阅读
         url: tags/read
-      - name: 💎感悟
-        url: tags/life
       - name: 📋EDC
         url: https://www.30plans.com/
         weight: 20
@@ -160,7 +158,7 @@ params:
     darkTheme: "dark"
     lang: "zh-CN"
     discussionTitle: "欢迎来到 ⌈灵犀·随想⌋" # 按需填写，评论框上方的标题
-    discussionSubtitle: "感谢您的耐心阅读！来选个表情，或者留个评论吧！" # 按需填写，评论框上方的副标题
+    discussionSubtitle: "感谢您的关注！来选个表情，或者留个评论吧！" # 按需填写，评论框上方的副标题
 
   socialIcons:
     - name: github
