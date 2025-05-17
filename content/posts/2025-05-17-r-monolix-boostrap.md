@@ -16,7 +16,7 @@ keywords:
   - boostrap
   
 description: '用R语言进行药动学模型boostrap验证'
-summary: ''
+summary: '采用R语言进行药动学模型的Boostrap验证'
 weight: ~
 draft: no
 comments: yes
