@@ -44,8 +44,8 @@ cover:
 
 ## 小作品
 
-- [万古霉素AUC计算器](https://30plans.shinyapps.io/apps/){target="_blank"} 
-- [新生儿早发败血症风险评估工具](https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2){target="_blank"}
+- <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer">[万古霉素AUC计算器]</a>
+- <a href="https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2" target="_blank" rel="noopener noreferrer">[新生儿早发败血症风险评估工具]</a>
 - 药学BI平台 [基于R语言shiny包开发]
 - 临床科研随访平台 [2017-2019] 荣获第四届中国药学服务创新大赛南部赛区优秀奖
 - 静脉用药调配中心医嘱自定义审查系统 [2013-2015]  荣获2015年度医疗新技术奖

@@ -112,7 +112,7 @@ params:
         url: https://www.30plans.com/
         weight: 20
       - name: 💊小程序
-        url: https://30plans.shinyapps.io/apps/
+        url: <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer">💊小程序</a>
         weight: 10
 
   defaultTheme: light # defaultTheme: light or  dark
