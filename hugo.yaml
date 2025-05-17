@@ -127,6 +127,7 @@ params:
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
+  ShowRssButtonInSectionTermList: true
   VisitCount: true
   ShowLastMod: true #显示文章更新时间
   ShowToc: true # 显示目录
