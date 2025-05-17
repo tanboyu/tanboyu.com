@@ -137,7 +137,7 @@ params:
 
   # 赞赏
   enableReward: true
-  rewardDescription: 精彩🏅🌷，给作者点赞👍！
+  rewardDescription: 精彩，给作者点赞👍🌷
   WechatPay: img/wechat_pay.png #打赏微信图片地址
   Alipay: img/alipay.png #打赏支付宝图片地址
 
