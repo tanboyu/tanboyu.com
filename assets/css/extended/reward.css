@@ -169,7 +169,7 @@
 
 .pe-reward-qr-wrap {
     background-color: var(--theme);
-    max-width: 64rem;
+    max-width: 58rem;
     /* 从80rem缩小到64rem，约20% */
     height: 25.6rem;
     /* 从32rem缩小到25.6rem，约20% */
