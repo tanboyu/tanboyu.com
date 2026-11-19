@@ -48,7 +48,7 @@ cover:
 
   <!-- 作品 1 -->
   <a href="https://www.precidose.ai/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: inherit;">
-    <img src="./images/web1.png" alt="个体化精准剂量决策平台" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
+    <img src="/images/web1.png" alt="个体化精准剂量决策平台" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
     <div>
       <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">个体化精准剂量决策平台（PreciDose） ↗</div>
       <div style="font-size: 0.9em; opacity: 0.8;">基于群体药动学（PopPK）与贝叶斯估算的 AI 驱动模型引导精准给药（MIPD）临床决策支持平台</div>
@@ -57,7 +57,7 @@ cover:
 
   <!-- 作品 2 -->
   <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: inherit;">
-    <img src="./images/van.png" alt="万古霉素AUC计算器" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
+    <img src="/images/van.png" alt="万古霉素AUC计算器" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
     <div>
       <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">万古霉素 AUC 计算器 ↗</div>
       <div style="font-size: 0.9em; opacity: 0.8;">基于 R 语言 Shiny 开发的万古霉素治疗药物监测（TDM）与药时曲线下面积计算工具</div>
