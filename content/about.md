@@ -44,42 +44,53 @@ cover:
 
 ## 作品
 
-<div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px;">
+<div class="project-card-list">
 
   <!-- 作品 1 -->
-  <a href="https://www.precidose.ai/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: inherit;">
-    <img src="/images/web1.png" alt="个体化精准剂量决策平台" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
-    <div>
-      <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">个体化精准剂量决策平台（PreciDose） ↗</div>
-      <div style="font-size: 0.9em; opacity: 0.8;">基于群体药动学（PopPK）与贝叶斯估算的 AI 驱动模型引导精准给药（MIPD）临床决策支持平台</div>
+  <a href="https://www.precidose.ai/" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="/images/web1.png" alt="AI 驱动个体化精准剂量决策平台" class="project-card-thumb" />
+    <div class="project-card-body">
+      <div class="project-card-title">个体化精准剂量决策平台（PreciDose） ↗</div>
+      <div class="project-card-desc">AI 驱动模型引导精准给药临床决策支持平台</div>
     </div>
   </a>
 
-  <!-- 作品 2 -->
-  <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: inherit;">
-    <img src="/images/van.png" alt="万古霉素AUC计算器" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
-    <div>
-      <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">万古霉素 AUC 计算器 ↗</div>
-      <div style="font-size: 0.9em; opacity: 0.8;">基于 R 语言 Shiny 开发的万古霉素治疗药物监测（TDM）与药时曲线下面积计算工具</div>
+  <!-- 作品 2 万古霉素 -->
+  <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="/images/van.png" alt="万古霉素AUC计算器" class="project-card-thumb" />
+    <div class="project-card-body">
+      <div class="project-card-title">万古霉素 AUC 计算器 ↗</div>
+      <div class="project-card-desc">基于 R 语言 Shiny 开发的万古霉素药时曲线下面积计算工具。(现已集成至PreciDose)</div>
     </div>
   </a>
 
-  <!-- 作品 3 -->
-  <!-- <a href="https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: inherit;">
-    <img src="./image/web3.png" alt="新生儿早发败血症风险评估工具" style="width: 120px; height: 75px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin: 0;" />
-    <div>
-      <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 4px;">新生儿早发败血症风险评估工具 ↗</div>
-      <div style="font-size: 0.9em; opacity: 0.8;">新生儿早发败血症（EOS）临床风险量化评估与抗感染辅助决策工具</div>
+
+<!-- 作品 3 美罗培南 -->
+  <a href="https://www.precidose.ai/" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="/images/web3.png" alt="美罗培南T>MIC计算" class="project-card-thumb" />
+    <div class="project-card-body">
+      <div class="project-card-title">美罗培南T>MIC计算 ↗</div>
+      <div class="project-card-desc">基于 R 语言 Shiny 开发的美罗培南%f T>MIC计算工具。(现已集成至PreciDose)</div>
     </div>
-  </a> -->
+  </a>
+
+
+  <!-- 作品 4 新生儿TPN -->
+  <a href="https://30plans.shinyapps.io/Neonatal_TPN_Calculator/" target="_blank" rel="noopener noreferrer" class="project-card">
+    <img src="/images/web4.png" alt="新生儿肠外营养医嘱辅助规划软件" class="project-card-thumb" />
+    <div class="project-card-body">
+      <div class="project-card-title">新生儿肠外营养医嘱规划 ↗</div>
+      <div class="project-card-desc">针对NICU个性化定制的PN规划软件，自带医嘱审核。（非最新版）</div>
+    </div>
+  </a>
 
 </div>
 
 
-## 获奖项目
+<!-- ## 获奖项目
 
 - 临床科研随访平台 [2017-2019] 荣获第四届中国药学服务创新大赛南部赛区优秀奖
-- 静脉用药调配中心医嘱自定义审查系统 [2013-2015]  荣获2015年度医疗新技术奖
+- 静脉用药调配中心医嘱自定义审查系统 [2013-2015]  荣获2015年度医疗新技术奖 -->
 
 ## 联系方式
 
@@ -87,6 +98,8 @@ cover:
   
   <a href="mailto:dr.tanboyu@gmail.com?subject=RE:Mail from BYTan blog" ><img src="/images/email.png" style="vertical-align: middle;" /></a>
 
-- 个人公众号
+- 公众号
+
+**临床药师的极客理想**
 
 <img src="/images/qrcode.jpg" width="25%" alt="welcome!" />

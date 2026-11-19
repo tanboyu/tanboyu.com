@@ -1,13 +1,143 @@
 .comments-title {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: block;
-    text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+  text-align: center;
 }
 
 .x-comments-title {
-    display: block;
-    font-size: 1.25em;
-    font-weight: 700;
-    padding: 1.5rem 0 .5rem;
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 1.5rem 0 .5rem;
+}
+
+/* 作品卡片双列网格容器 */
+.project-card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+/* 单个作品卡片 */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: inherit;
+  box-shadow: none !important;
+  transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.25s cubic-bezier(0.25, 0.8, 0.25, 1),
+    border-color 0.25s ease;
+}
+
+/* 鼠标悬停效果 */
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 24px -4px rgba(0, 0, 0, 0.12) !important;
+}
+
+.dark .project-card:hover {
+  box-shadow: 0 10px 28px -4px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* 顶部缩略图：完整保留四角与画面内容，不裁剪 */
+.project-card-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  /* 统一双列卡片图片区域高度，保持对齐 */
+  object-fit: contain;
+  /* 完整展示全图，绝不裁切边缘和四角 */
+  background-color: var(--code-bg);
+  /* 给留白区域提供柔和的底色衬托 */
+  padding: 10px;
+  /* 四周留白，避免图片紧贴卡片边框 */
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--border);
+  border-radius: 11px 11px 0 0 !important;
+  margin: 0 !important;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-card-thumb {
+  transform: scale(1.02);
+}
+
+/* 底部文字内容区域 */
+.project-card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-card-title {
+  font-weight: 600;
+  font-size: 1.05em;
+  margin-bottom: 6px;
+  color: var(--primary);
+}
+
+.project-card-desc {
+  font-size: 0.88em;
+  color: var(--secondary);
+  line-height: 1.55;
+}
+
+/* 移动端窄屏自动切换为单列 */
+@media (max-width: 680px) {
+  .project-card-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================
+   PaperMod 文章封面图（Cover）尺寸优化
+   ========================================= */
+
+/* 1. 文章列表页（首页、文章归档、分类/标签页）的封面图 */
+.post-entry .entry-cover {
+  margin-bottom: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  /* 裁剪超出圆角边框的部分 */
+}
+
+.post-entry .entry-cover img {
+  width: 100%;
+  /* 横向铺满卡片内容区 */
+  height: 220px;
+  /* 固定展示高度（可根据喜好微调，如 200px 或 240px） */
+  max-height: none;
+  object-fit: cover;
+  /* 等比例放大铺满容器并自动居中裁剪，绝不变形 */
+  object-position: top;
+  /* 默认取图片正中心区域；若书籍顶部标题被裁掉，可改为 center 35% */
+  border-radius: 8px;
+  margin: 0;
+  display: block;
+}
+
+/* 2. 文章详情页顶部的封面图 */
+.post-single .entry-cover img {
+  max-height: 360px;
+  /* 详情页适当放宽最大高度 */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* 移动端窄屏微调 */
+@media (max-width: 600px) {
+  .post-entry .entry-cover img {
+    height: 170px;
+  }
 }

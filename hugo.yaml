@@ -108,15 +108,14 @@ params:
         url: /series
       - name: 📖阅读
         url: tags/read
+
+      - name: 🎯PreciDose
+        url: https://www.precidose.ai/
+        weight: 10
+
       - name: 📋EDC
         url: https://www.30plans.com/
         weight: 20
-      - name: 💊万古AUC
-        url: https://30plans.shinyapps.io/apps/
-        weight: 10
-      - name: 🎯PreciDose
-        url: https://www.precidose.ai/
-        weight: 30
 
   defaultTheme: light # defaultTheme: light or  dark
   disableThemeToggle: false
