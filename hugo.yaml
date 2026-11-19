@@ -111,9 +111,12 @@ params:
       - name: 📋EDC
         url: https://www.30plans.com/
         weight: 20
-      - name: 💊小程序
+      - name: 💊万古霉素AUC计算
         url: https://30plans.shinyapps.io/apps/
         weight: 10
+      - name: 💊PreciDose
+        url: https://www.precidose.ai/
+        weight: 30
 
   defaultTheme: light # defaultTheme: light or  dark
   disableThemeToggle: false
