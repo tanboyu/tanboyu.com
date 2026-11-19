@@ -18,7 +18,7 @@ weight: ~
 draft: false
 comments: true
 showToc: true
-TocOpen: false
+TocOpen: true
 autonumbering: true
 hidemeta: false
 disableShare: true
