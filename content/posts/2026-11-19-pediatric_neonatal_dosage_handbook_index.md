@@ -12,7 +12,7 @@ lastmod: '2026-11-19T15:28:04+08:00'
 keywords:
   - 儿科和新生儿用药手册
   - Pediatric & Neonatal Dosing Handbook
-description: '《儿科和新生儿用药手册》药理分类索引（30版）'
+description: '《儿科和新生儿用药手册》（30版）药理分类索引中英文对照版'
 summary: '《儿科和新生儿用药手册》药理分类索引（30版）'
 weight: ~
 draft: false
