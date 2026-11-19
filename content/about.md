@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2015-05-09T21:08:12+08:00
-lastmod: 2025-05-14T21:09:48+08:00
+lastmod: 2026-11-19T21:09:48+08:00
 author: ["Bobby"]
 
 tags:
@@ -42,8 +42,9 @@ cover:
 
 这里是我记录专业感悟与学习旅程的数字家园，分享从临床经验到技术探索的心得。无论是药学前沿还是数据洞见，期待与你交流，共同探寻知识的乐趣！
 
-## 小作品
+## 作品
 
+- <a href="https://www.precidose.ai/" target="_blank" rel="noopener noreferrer">[个体化精准剂量决策平台（Precidose）]</a>
 - <a href="https://30plans.shinyapps.io/apps/" target="_blank" rel="noopener noreferrer">[万古霉素AUC计算器]</a>
 - <a href="https://30plans.shinyapps.io/apps/_w_8088acbb2dcc406da43479727ea2a3cd/#tab-4554-2" target="_blank" rel="noopener noreferrer">[新生儿早发败血症风险评估工具]</a>
 - 药学BI平台 [基于R语言shiny包开发]
