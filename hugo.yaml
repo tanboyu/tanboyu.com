@@ -117,6 +117,10 @@ params:
         url: https://www.30plans.com/
         weight: 20
 
+      - name: 📋排版
+        url: https://edit.tanboyu.com/
+        weight: 20
+
   defaultTheme: light # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
